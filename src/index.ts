@@ -1,1 +1,2 @@
-// export const 
+import { exceptObj } from "./exceptObj"
+export {exceptObj}

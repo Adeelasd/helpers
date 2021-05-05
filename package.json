@@ -1,6 +1,6 @@
 {
-  "name": "node-helpers",
-  "version": "0.0.1",
+  "name": "js-easify",
+  "version": "0.0.2",
   "description": "Basic set of helpers to makes backend and frontend javascript easy.",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -12,9 +12,9 @@
   },
 
   "scripts": {
-    "build": "rm -fr esm/* cjs/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup",
+    "build": "rm -fr esm/* cjs/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh",
     "prepare": "npm run build",
-    "version" : "npm run format && git add -A src",
+    "version" : "git add -A src",
     "postversion" : "git push && git push --tags"
 
   },

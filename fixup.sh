@@ -1,10 +1,10 @@
-cat >dist/cjs/package.json <<!EOF
+cat >cjs/package.json <<!EOF
 {
     "type": "commonjs"
 }
 !EOF
 
-cat >dist/mjs/package.json <<!EOF
+cat >esm/package.json <<!EOF
 {
     "type": "module"
 }

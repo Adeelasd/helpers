@@ -1,0 +1,38 @@
+{
+  "name": "node-helpers",
+  "version": "0.0.1",
+  "description": "Basic set of helpers to makes backend and frontend javascript easy.",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "files": ["cjs/**/*","esm/**/*"],
+  "types": "esm/index.d.ts",
+  "exports":{
+    "require":"./cjs/*",
+    "import":"./esm/*"
+  },
+
+  "scripts": {
+    "build": "rm -fr esm/* cjs/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup",
+    "prepare": "npm run build",
+    "version" : "npm run format && git add -A src",
+    "postversion" : "git push && git push --tags"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adeelasd/helpers.git"
+  },
+  "keywords": [
+    "helpers",
+    "node-helpers"
+  ],
+  "author": "Adeel Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adeelasd/helpers/issues"
+  },
+  "homepage": "https://github.com/Adeelasd/helpers#readme",
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}

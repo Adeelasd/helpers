@@ -37,5 +37,9 @@
   "homepage": "https://github.com/Adeelasd/helpers#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/package/js-easify",
+    "access": "public"
   }
 }

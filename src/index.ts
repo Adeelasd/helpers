@@ -1,2 +1,3 @@
-import { exceptObj } from "./exceptObj"
-export {exceptObj}
+import { exceptObj } from "./exceptObj";
+
+export { exceptObj }

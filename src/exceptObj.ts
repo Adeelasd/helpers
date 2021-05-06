@@ -11,14 +11,3 @@ export const exceptObj = (items: { [key: string]: any }, values: Array<string>):
     return res
 }
 
-/** 
- * @description Returns (string | number | undefined | null) as Int
- */
-export const returnInt = (data: string | number) => {
-    if (typeof data == "string")
-        return parseInt(data)
-    if (!data)
-        return 0
-    return data
-
-}

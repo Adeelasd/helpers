@@ -1,25 +1,26 @@
 {
   "name": "js-easify",
-  "version": "0.0.22",
+  "version": "0.0.24",
   "description": "Basic set of helpers to makes backend and frontend javascript easy.",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "type": "module",
-  "files": ["cjs/**/*","esm/**/*"],
+  "files": [
+    "cjs/**/*",
+    "esm/**/*"
+  ],
   "types": "./esm/index.d.ts",
-  "exports":{
-    ".":{
-      "require":"./cjs/index.js",
-      "import":"./esm/index.js"
+  "exports": {
+    ".": {
+      "require": "./cjs/index.js",
+      "import": "./esm/index.js"
     }
   },
-
   "scripts": {
     "build": "rm -fr esm/* cjs/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh",
     "prepare": "npm run build",
-    "version" : "git add -A src",
-    "postversion" : "git push && git push --tags"
-
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -39,7 +40,6 @@
     "typescript": "^4.2.4"
   },
   "publishConfig": {
-    "registry": "https://www.npmjs.com/package/js-easify",
-    "access": "public"
+    "registry": "https://registry.npmjs.org/js-easify"
   }
 }

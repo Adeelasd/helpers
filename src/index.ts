@@ -1,3 +1,3 @@
 import { exceptObj } from "./exceptObj";
-
-export { exceptObj }
+import { returnAsInt } from "./returnAsInt";
+export { exceptObj, returnAsInt}

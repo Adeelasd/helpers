@@ -20,7 +20,8 @@
     "build": "rm -fr esm/* cjs/* && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && ./fixup.sh",
     "prepare": "npm run build",
     "version": "git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "test": "echo \"No test set Yet\" "
   },
   "repository": {
     "type": "git",

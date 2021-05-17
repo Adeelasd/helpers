@@ -1,6 +1,6 @@
 {
   "name": "js-easify",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "Basic set of helpers to makes backend and frontend javascript easy.",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -15,9 +15,9 @@
       "require": "./cjs/index.js",
       "import": "./esm/index.js"
     },
-    "./":{
-      "require":"./cjs/**/*.js",
-      "import" :"./esm/**/*.js"
+    "./": {
+      "require": "./cjs/**/*.js",
+      "import": "./esm/**/*.js"
     }
   },
   "scripts": {

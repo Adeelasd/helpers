@@ -1,7 +1,7 @@
 /**
  * @description Removes keys from object first param is Object while second is Array of strings 
  */
-export const exceptObj = (items: { [key: string]: any }, values: Array<string>): { [item: string]: any } => {
+const exceptObj = (items: { [key: string]: any }, values: Array<string>): { [item: string]: any } => {
     let objs = Object.keys(items)
     let res: any = {}
     objs.map(item => {
@@ -11,3 +11,4 @@ export const exceptObj = (items: { [key: string]: any }, values: Array<string>):
     return res
 }
 
+export default exceptObj

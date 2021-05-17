@@ -8,3 +8,5 @@ export const returnAsInt = (data: any) => {
         return 0
     return typeof data == "number" ? data : 1
 }
+
+export default returnAsInt

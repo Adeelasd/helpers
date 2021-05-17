@@ -1,7 +1,7 @@
 /** 
  * @description Returns (any) as Int
  */
-export const returnAsInt = (data: any) => {
+const returnAsInt = (data: any) => {
     if (typeof data == "string")
         return parseInt(data)||0
     if (!data)
@@ -9,4 +9,4 @@ export const returnAsInt = (data: any) => {
     return typeof data == "number" ? data : 1
 }
 
-export default returnAsInt
+export  {returnAsInt}

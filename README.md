@@ -15,4 +15,6 @@
 ## ESM and CJS support
 This package supports TreeShanking for esm as well as seprate files for each function so you can use it in backend without bloating your application as well as chose between cjs and esm.
 
-e.g import {exceptObj,returnAsInt} from "js-easify" or  const 
+```e.g import {exceptObj,returnAsInt} from "js-easify" or  const {returnAsInt} = require("js-easify")```
+//Or 
+```e.g import {returnAsInt} from "js-easify/esm/returnAsInt.js" or const {returnAsInt} =require("js-easify/cjs/returnAsInt.js")```

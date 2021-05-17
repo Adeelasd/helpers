@@ -1,3 +1,3 @@
-import { exceptObj } from "./exceptObj";
-import { returnAsInt } from "./returnAsInt";
+import { exceptObj } from "./exceptObj.js";
+import { returnAsInt } from "./returnAsInt.js";
 export { exceptObj, returnAsInt}

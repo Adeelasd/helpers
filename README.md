@@ -17,4 +17,4 @@ This package supports TreeShanking for esm as well as seprate files for each fun
 
 ```e.g import {exceptObj,returnAsInt} from "js-easify" or  const {returnAsInt} = require("js-easify")```
 //Or 
-```e.g import {returnAsInt} from "js-easify/esm/returnAsInt.js" or const {returnAsInt} =require("js-easify/cjs/returnAsInt.js")```
+``` e.g import {returnAsInt} from "js-easify/esm/returnAsInt.js" or const {returnAsInt} =require("js-easify/cjs/returnAsInt.js") ```

@@ -1,6 +1,11 @@
 # NodeJs Helper
 
 # basic set of helpers to make coding a bit easier 
+
+## Installation
+
+### npm i js-easify
+
 ## Usage
 
 ### exceptObj ```Js Function ```

@@ -12,6 +12,9 @@
  return an object without specified properties 
  e.g 
 ``` exceptObj({} as an Object , [] as list of Strings ) ```
+#### e.g
+``` let data = { val1 : "22", val2 : "44" } ```
+``` console,log( exceptObj( data , [ "val1" ] ) )  // { val2 : "44" } ```
 
 ### returnAsInt ```Js Function ```
  return anything as number useful when you dont know the return type and you want out put to be number

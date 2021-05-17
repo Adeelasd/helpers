@@ -15,7 +15,7 @@
       "require": "./cjs/index.js",
       "import": "./esm/index.js"
     },
-    "./": {
+    "./*": {
       "require": "./",
       "import": "./"
     }

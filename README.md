@@ -1,6 +1,6 @@
 # NodeJs Helper
 
-# basic set of helpers to make coding a bit easier 
+### basic set of helpers to make coding a bit easier 
 
 ## Installation
 
@@ -12,8 +12,10 @@
  return an object without specified properties 
  e.g 
 ``` exceptObj({} as an Object , [] as list of Strings ) ```
+
 #### e.g
 ``` let data = { val1 : "22", val2 : "44" } ```
+
 ``` console,log( exceptObj( data , [ "val1" ] ) )  // { val2 : "44" } ```
 
 ### returnAsInt ```Js Function ```
@@ -25,7 +27,7 @@
 ## ESM and CJS support
 This package supports TreeShanking for esm as well as seprate files for each function so you can use it in backend without bloating your application as well as chose between cjs and esm.
 
-```e.g import { exceptObj, returnAsInt } from "js-easify" ``` or ``` const { returnAsInt } = require( "js-easify" ) ```
+```e.g import { exceptObj, returnAsInt } from "js-easify" ```  or  ``` const { returnAsInt } = require( "js-easify" ) ```
 ### //Or 
 ``` e.g import { returnAsInt } from "js-easify/esm/returnAsInt.js" ```
 or 

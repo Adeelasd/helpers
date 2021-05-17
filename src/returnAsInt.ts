@@ -1,11 +1,10 @@
 /** 
- * @description Returns (string | number | undefined | null) as Int
+ * @description Returns (any) as Int
  */
- export const returnAsInt = (data: string | number) => {
+export const returnAsInt = (data: any) => {
     if (typeof data == "string")
         return parseInt(data)
     if (!data)
         return 0
-    return data
-
+    return typeof data == "number" ? data : 1
 }

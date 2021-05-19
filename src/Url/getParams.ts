@@ -5,9 +5,6 @@ import { parse } from "qs"
  * @description parses querystring into relavent data type. ( this uses qs under the hood )
  */
 export const getParams = (url = "") => {
-    let dataUrl: string
-    if (url)
-        return parse(url)
-    let currentUrl = window.location.href.split("?")[1]
-    console.log(currentUrl)
+    let currentUrl = (url || window.location.href).split("?")[1]
+    return parse(currentUrl)
 }

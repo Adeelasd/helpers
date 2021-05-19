@@ -10,11 +10,15 @@
 
 
 
-### distinct
-checks if the value in array is distinct or not.
-``` distinct(any,number,string | any[]) ```
 
 ## Array
+
+### isDistinct
+checks if the value in array is distinct or not. if left empty will validate the entire array for distinct values.
+``` isDistinct(any[],string?) ```
+
+#### e.g
+``` isDistinct(["foo","bar"]) //true isDistinct(["foo","bar","foo"]) //false isDistinct(["foo","bar","foo"],"bar") //true ```
 
 ### removeDuplicate  
  removes dublicate values from array.

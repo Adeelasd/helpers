@@ -1,7 +1,7 @@
 import { parse } from "qs"
 /**
  * @param url Url of website with params e.g example.com?foo=bar
- * @default window.location.href
+ * @default window.location.href (only works on DOM)
  * @description parses querystring into relavent data type. ( this uses qs under the hood )
  */
 const getParams = (url = "") => {

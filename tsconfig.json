@@ -5,6 +5,7 @@
     "declaration": true,
     "outDir": "./esm",
     "strict": true,
+    
     "moduleResolution": "Node"
   },
   "include": ["src"],

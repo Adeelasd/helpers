@@ -9,6 +9,11 @@
 ## Usage
 
 
+
+### distinct
+checks if the value in array is distinct or not.
+``` distinct(any,number,string | any[]) ```
+
 ## Array
 
 ### removeDuplicate  
@@ -19,7 +24,7 @@
 
 ### pluck 
 gets specific values from Array of objects.
-e.g ``` pluck(Array<Object>,String)  ```
+``` pluck(Array<Object>,String)  ```
 
 #### e.g
 ``` let data =[ { name:"foo" , id:1},{name:"bar" , id:2 } ]  ```
@@ -48,8 +53,7 @@ e.g ``` pluck(Array<Object>,String)  ```
 ## Int
 
 ### returnAsInt 
- return anything as number useful when you dont know the return type and you want out put to be number
- e.g 
+ return anything as number useful when you dont know the return type and you want out put to be number.
 ``` returnAsInt(any) ```
 
 #### e.g

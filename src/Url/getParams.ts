@@ -4,7 +4,9 @@ import { parse } from "qs"
  * @default window.location.href
  * @description parses querystring into relavent data type. ( this uses qs under the hood )
  */
-export const getParams = (url = "") => {
+const getParams = (url = "") => {
     let currentUrl = (url || window.location.href).split("?")[1]
     return parse(currentUrl)
 }
+
+export default getParams

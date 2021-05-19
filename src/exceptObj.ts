@@ -11,4 +11,4 @@
     return res
 }
 
-export { exceptObj}
+export default  exceptObj

@@ -9,4 +9,4 @@ const returnAsInt = (data: any) => {
     return typeof data == "number" ? data : 1
 }
 
-export  {returnAsInt}
+export default  returnAsInt

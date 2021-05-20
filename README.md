@@ -43,6 +43,14 @@ gets specific values from Array of objects.
 ``` let data=[{ name:"foo" , id:1 },{ name:"bar" , id:2 }] ```
 
 ``` sort(data,"name") // { foo:{ id:1 , name:"foo" }, bar:{ id:2 , name:"bar" } }   ```
+<!-- 
+### mergeUp 
+ converts array of objects into an object based on key provided.
+ ``` sort(Array<Object>,String) ```
+#### e.g 
+``` let data=[{ name:"foo" , id:1 },{ name:"bar" , id:2 }] ```
+
+``` sort(data,"name") // { foo:{ id:1 , name:"foo" }, bar:{ id:2 , name:"bar" } }   ``` -->
 
 
 ### exceptObj 

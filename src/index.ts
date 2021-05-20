@@ -5,4 +5,7 @@ import removeDuplicate from "./Array/removeDuplicate.js"
 import pluck from "./Array/pluck.js"
 import sort from "./Object/sort.js"
 import isDistinct from "./Array/isDistinct.js";
-export { exceptObj, returnAsInt, getParams, removeDuplicate, pluck, sort, isDistinct }
+import mergeUp from "./Object/mergeUp.js";
+export {
+    exceptObj, returnAsInt, getParams, removeDuplicate, pluck, sort, isDistinct, mergeUp
+}

@@ -1,6 +1,6 @@
 {
   "name": "js-easify",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Basic set of helpers to makes backend and frontend javascript easy.",
   "main": "cjs/index.js",
   "module": "esm/index.js",

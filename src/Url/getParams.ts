@@ -1,4 +1,4 @@
-import { parse } from "qs"
+import { parse } from "query-string"
 /**
  * @param url Url of website with params e.g example.com?foo=bar
  * @default window.location.href (only works on DOM)

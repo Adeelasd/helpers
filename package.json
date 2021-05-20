@@ -49,6 +49,6 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "qs": "^6.10.1"
+    "query-string": "^7.0.0"
   }
 }

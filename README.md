@@ -65,7 +65,7 @@ gets specific values from Array of objects.
 
 ## Url
 ### getParams 
- Get params from url provided and if left empty will get params from if in dom. used (qs under the hood)
+ Get params from url provided and if left empty will get params from if in dom. used (query-string under the hood)
  ``` getParams(String) ```
 ### e.g 
 ``` let data='example.com?foo=bar' ```
